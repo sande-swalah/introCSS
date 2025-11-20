@@ -1,0 +1,32 @@
+body {
+    font-family: sans-serif;
+}
+
+.link{
+   text-decoration: none; 
+   color: white;
+}
+
+#nav ul{
+    list-style: none;
+    display: flex;
+    justify-content:space-evenly;
+}
+#nav{
+    background-color: rgb(3, 2, 88);
+    padding: 1%;
+    margin: 0;
+}
+#home{
+    text-align: center;
+    padding: 5%;
+    background-image: url("./home-image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0 0 50px 0  ;
+    color: #fff;
+}
+
+#home ul{
+    list-style: none;
+}
