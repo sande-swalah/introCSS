@@ -30,3 +30,51 @@ body {
 #home ul{
     list-style: none;
 }
+.header{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight:800;
+    color: rgb(6, 6, 192);
+}
+#about-image{
+    padding: 2%;
+}
+#about-image img{
+    height: auto;
+    width: 40vw;
+}
+#about{
+    display: flex;
+}
+#about-info{
+    padding: 7%;
+}
+#about-info p{
+    margin: 2%;
+}
+
+#prices{
+    background-color: linear-gradient(rgb(255, 255, 255),rgba(70, 76, 248, 0.511),rgba(2, 37, 126, 0.618));
+    height: 20vh;
+    background-size: cover;
+}
+
+#prices table{
+    width: 60vw;
+    margin: auto;
+}
+#prices table tr{
+    border: #fff 2px dashed;
+    background-color: rgb(5, 5, 105);
+    color: #fff;
+}
+
+table td{
+    padding: 3%;
+    text-align: center;
+}
+table th{
+    padding: 3%;
+    text-align: center;
+    font-size: x-large;
+}
